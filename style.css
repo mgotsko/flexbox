@@ -1,0 +1,30 @@
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-around;
+    height: 500px;
+    background-color: aquamarine;
+    align-items: st;
+}
+
+.intern {
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+}
+.intern1 {
+    order: 3;
+}
+.interne2 {
+    order: 1;
+}
+.intern3 {
+
+} */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
